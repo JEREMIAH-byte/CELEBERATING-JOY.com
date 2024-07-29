@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELEBRATING JOY</title>
+    <link rel="stylesheet" href="hp.css">
+    <script src="hp.js"></script>
+</head>
+<body>
+    <header>
+        <h4>CARDS</h4>
+        <h4>MESSAGE</h4>
+        <h4>INFO</h4>
+
+    </header>
+
+
+    <div class="envelope">
+        <div class="flap"></div>
+        <div class="text">WE SPECIALLY INVITE YOU TO</div>
+        <img src="Beige Purple Florist Shop style 2.jpg" alt="Image">
+    </div>
+    <strong><p> TAP THE BOX ABOVE TO OPEN INVITATION CARD</p></strong>
+  
+
+
+
+<style>
+body {
+   
+    height: 100vh;
+    background-color: rgb(53, 53, 53);
+    margin: 0;
+    background-repeat: no-repeat;
+   background-size: cover;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+}
+
+.envelope {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20%;
+    margin-bottom: -70%;
+    margin-left: 9%;
+}
+
+.envelope img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+
+.flap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    transform-origin: top;
+    transition: transform 1s ease, opacity 1s ease;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+
+.envelope:hover .flap {
+    transform: rotateX(-0deg);
+    opacity: 0;
+    transition: 40s;
+}
+
+.envelope:hover img {
+    animation: showImage 2s forwards;
+    transition: 40s;
+}
+
+@keyframes showImage {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+        transition: 40s;
+    }
+    1% {
+        transform: translateY(0);
+        opacity: 1;
+        transition: 40s;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+        transition: 40s;
+    }
+}
+
+
+
+
+
+
+</style>
+
+</style>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="below">
+    <strong><p id="p1">VENUE:</p></strong>
+    <p id="p2">Blue Elephant Resturant, Hilton Malta St.Julian Maltata</p>
+    <p id="p3">SUNDAY 4TH OF AUGUST,2024
+    </p>
+    <strong><p id="p4">DRESS CODE:</p></strong>
+    <p id="p5">All shades of evening blue</p>
+    <p id="p6">MEN: Black Tie</p>
+    <p id="p7">WOMEN: Gowns</p>
+    <br>
+    <hr>
+ 
+
+    <p id="p8">For: CELEBRATING JOY</p>
+    <h5>CELEBRATING JOY @ 60</h5>
+<button onclick="sorrymes()">
+    ADD TO CALLENDER
+</button>
+<p>Joy will be plus 1 on sunday 4th of august 2024, on that day joy automatically turns 60 years old</p>
+<em><P id="p9">WILL ATTEND</P></em>
+
+<div class="checkboxes">
+<label>Yes</label><input type="checkbox" >
+<label>No</label><input type="checkbox" >
+</div>
+
+<br>
+<hr>
+<p><strong>WE WISH YOU A HAPPY BIRTHDAY</strong></p>
+
+<hr>
+<footer>
+    <p>Copyright &copy; 2024, CELEBRATING JOY</p>
+</footer>
+</div>
+</body>
+</html>

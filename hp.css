@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(48, 47, 47);
+ 
+
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0px 20px;
+    background: rgb(100, 99, 99);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0.06);
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+h5{
+    text-align: center;
+    text-decoration: solid;
+}
+
+hr{
+    background: rgb(0, 0, 0);
+}
+button{
+    width: 100%;
+    height: 35px;
+    background: black;
+    color: gray;
+    cursor: pointer;
+}
+p#p6{
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+p#p1{
+    margin-bottom: -10px;
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+p#p2{
+    margin-bottom:-3px ;
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+
+
+p#p3{
+        font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+    
+p#p5{
+    margin-top: 50px;
+}
+
+p#p4{
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+div.checkboxes{
+    justify-content: space-between;
+    
+}
+
+div.below{
+    background-color: rgb(238, 238, 238);
+}
+
+form textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.below{
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
